@@ -3,6 +3,7 @@ import JumboComp from "./JumboComp";
 import Carusel1 from "./Carusel1";
 import Carusel2 from "./Carusel2";
 import TableTravel from "./TableTravel";
+import CodeApp from "./CodeApp";
 function MainComp() {
   return (
     <>
@@ -17,6 +18,7 @@ function MainComp() {
           <Carusel1 />
           <Carusel2 />
         </Box>
+        <CodeApp></CodeApp>
       </Container>
     </>
   );
