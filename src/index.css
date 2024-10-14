@@ -1,0 +1,29 @@
+body {
+  background-color: #edf2f6 !important;
+}
+.carousel-container {
+  position: relative;
+}
+
+.custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: transparent;
+  border: none;
+}
+
+.custom-arrow.left {
+  left: 0px;
+}
+
+.custom-arrow.right {
+  right: 0px;
+}
+.carousel-item-padding-40-px {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
