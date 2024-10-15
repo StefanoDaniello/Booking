@@ -8,17 +8,22 @@ function Carusel2() {
   const { cardList } = useContextApp();
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 5,
-      slidesToSlide: 5,
+      breakpoint: { max: 3000, min: 1500 },
+      items: 6,
+      slidesToSlide: 6,
+    },
+    desktopSm: {
+      breakpoint: { max: 1500, min: 1024 },
+      items: 4,
+      slidesToSlide: 4,
     },
     tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 5,
-      slidesToSlide: 5,
+      breakpoint: { max: 1024, min: 800 },
+      items: 3,
+      slidesToSlide: 3,
     },
     mobile: {
-      breakpoint: { max: 464, min: 0 },
+      breakpoint: { max: 800, min: 0 },
       items: 2,
       slidesToSlide: 2,
     },
@@ -55,7 +60,7 @@ function Carusel2() {
           customTransition="all .5"
           transitionDuration={500}
           containerClass="carousel-container"
-          removeArrowOnDeviceType={["tablet", "mobile"]}
+          // removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
           customLeftArrow={<CustomLeftArrow />}
