@@ -26,6 +26,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -56,6 +57,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -76,6 +78,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -97,6 +100,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -116,6 +120,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
@@ -135,6 +140,7 @@ function TableTravel() {
             transform: "scale(1.1)",
             boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
             transition: "all 0.5s ease",
+            cursor: "pointer",
           }}
         >
           <Image
