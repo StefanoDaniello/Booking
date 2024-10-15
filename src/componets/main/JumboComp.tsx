@@ -5,7 +5,7 @@ function JumboComp() {
     <Container maxW="1200px" p={4} display="flex" justifyContent="center">
       <Box width="full" height="600px" position="relative">
         <Image
-          src="https://bit.ly/dan-abramov"
+          src="https://img.freepik.com/foto-gratuito/deliziosa-pasta-sul-piatto_23-2150690587.jpg?uid=R168498621&ga=GA1.1.1895884132.1728984975&semt=ais_hybrid-rr-similar"
           alt="Dan Abramov"
           borderRadius="20px"
           width="full"

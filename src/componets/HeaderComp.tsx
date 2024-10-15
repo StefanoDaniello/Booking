@@ -20,7 +20,7 @@ function HeaderComp() {
         <Box p={4}>
           <Flex justify="space-between" alignItems="center">
             <Image
-              src="https://bit.ly/dan-abramov"
+              src="https://img.freepik.com/vettori-gratuito/logo-di-viaggio-dettagliato_23-2148608909.jpg?uid=R168498621&ga=GA1.1.1895884132.1728984975&semt=ais_hybrid-rr-similar"
               alt="Dan Abramov"
               borderRadius="50%"
               width="70px"
@@ -44,7 +44,7 @@ function HeaderComp() {
           <Box textAlign="center">
             <Text fontSize="5xl">Dove Vuoi Andare?</Text>
             <Box display="flex" justifyContent="center" alignItems="center">
-              {filterList.map((item, index) => (
+              {filterList.map((item: any, index: number) => (
                 <Box
                   key={index}
                   _hover={{
