@@ -9,11 +9,21 @@ import {
   Input,
   InputRightElement,
   Container,
+  Drawer,
+  DrawerBody,
+  DrawerHeader,
+  DrawerOverlay,
+  DrawerContent,
+  DrawerCloseButton,
+  useDisclosure,
 } from "@chakra-ui/react";
 import { HamburgerIcon, SearchIcon } from "@chakra-ui/icons";
-import { useContextApp } from "../store/context";
+import { useContextApp } from "../../store/context";
+
 function HeaderComp() {
   const { filterList } = useContextApp();
+  const { isOpen, onOpen, onClose } = useDisclosure();
+
   return (
     <>
       <Container maxW="1400px" p={4}>
@@ -30,6 +40,7 @@ function HeaderComp() {
               variant="outline"
               borderRadius="30px"
               _hover={{ bg: "gray.300", cursor: "pointer" }}
+              onClick={onOpen}
             >
               <HamburgerIcon />
               <Image
@@ -41,6 +52,39 @@ function HeaderComp() {
               />
             </Button>
           </Flex>
+
+          {/* Drawer (Off-Canvas) */}
+          <Drawer isOpen={isOpen} placement="left" onClose={onClose}>
+            <DrawerOverlay />
+            <DrawerContent>
+              <DrawerCloseButton />
+              <DrawerHeader>Menu</DrawerHeader>
+              <DrawerBody>
+                {/* Aggiungi qui il contenuto del Drawer */}
+                <Box>
+                  {filterList.map((item: any, index: number) => (
+                    <Box
+                      key={index}
+                      _hover={{
+                        borderBottom: "2px solid black",
+                        cursor: "pointer",
+                      }}
+                      borderBottom="2px solid transparent"
+                      display="flex"
+                      alignItems="center"
+                      alignContent="space-around"
+                      mx={3}
+                      mt={5}
+                    >
+                      <Text>{item.icon}</Text>
+                      <Text ml={2}>{item.name}</Text>
+                    </Box>
+                  ))}
+                </Box>
+              </DrawerBody>
+            </DrawerContent>
+          </Drawer>
+
           <Box textAlign="center">
             <Text fontSize="5xl" className="titolo">
               Dove Vuoi Andare?

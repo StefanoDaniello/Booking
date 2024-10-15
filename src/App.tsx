@@ -1,4 +1,4 @@
-import HeaderComp from "./componets/HeaderComp";
+import HeaderComp from "./componets/header/HeaderComp";
 import MainComp from "./componets/main/MainComp";
 import FooterComp from "./componets/footer/FooterComp";
 import { ContextProvider } from "./store/context";
