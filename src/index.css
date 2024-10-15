@@ -1,5 +1,9 @@
 body {
   background-color: #e2e8f0 !important;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
 }
 .carousel-container {
   position: relative;
