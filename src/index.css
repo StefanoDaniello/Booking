@@ -10,8 +10,17 @@ body {
   top: 50%;
   transform: translateY(-50%);
   z-index: 10;
-  background-color: transparent;
+  background-color: white;
   border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(74, 141, 217);
+}
+.custom-arrow:hover {
+  cursor: pointer;
+  background-color: rgb(208, 208, 208);
+  color: rgb(40, 202, 246);
 }
 
 .custom-arrow.left {
@@ -26,8 +35,4 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
-}
-
-.bg-gray {
-  background-color: #e0e0e0;
 }

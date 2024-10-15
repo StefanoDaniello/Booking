@@ -1,4 +1,11 @@
-import { ListItem, UnorderedList, Flex, Box, Heading } from "@chakra-ui/react";
+import {
+  ListItem,
+  UnorderedList,
+  Flex,
+  Box,
+  Heading,
+  Link,
+} from "@chakra-ui/react";
 
 function FooterTop() {
   return (
@@ -11,12 +18,24 @@ function FooterTop() {
               Travel
             </Heading>
             <UnorderedList styleType="none" spacing={2}>
-              <ListItem>Chi Siamo</ListItem>
-              <ListItem>Blog</ListItem>
-              <ListItem>Destinazioni</ListItem>
-              <ListItem>Viaggi di Lavoro</ListItem>
-              <ListItem>Vacanze Familiari</ListItem>
-              <ListItem>Avventure</ListItem>
+              <ListItem>
+                <Link href="#">Chi Siamo</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Blog</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Destinazioni</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Viaggi di Lavoro</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Vacanze Familiari</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Avventure</Link>
+              </ListItem>
             </UnorderedList>
           </Box>
           <Box>
@@ -24,11 +43,21 @@ function FooterTop() {
               Collabora con noi
             </Heading>
             <UnorderedList styleType="none" spacing={2}>
-              <ListItem>Lavora con noi</ListItem>
-              <ListItem>Affiliazioni</ListItem>
-              <ListItem>Partnership</ListItem>
-              <ListItem>Pubblicità</ListItem>
-              <ListItem>Scrivici</ListItem>
+              <ListItem>
+                <Link href="#">Lavora con noi</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Affiliazioni</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Partnership</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Pubblicità</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Scrivici</Link>
+              </ListItem>
             </UnorderedList>
           </Box>
           <Box>
@@ -36,12 +65,24 @@ function FooterTop() {
               Esplora
             </Heading>
             <UnorderedList styleType="none" spacing={2}>
-              <ListItem>Top Destinations</ListItem>
-              <ListItem>Guide di Viaggio</ListItem>
-              <ListItem>Recensioni</ListItem>
-              <ListItem>Foto</ListItem>
-              <ListItem>Video</ListItem>
-              <ListItem>Community</ListItem>
+              <ListItem>
+                <Link href="#">Top Destinations</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Guide di Viaggio</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Recensioni</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Foto</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Video</Link>
+              </ListItem>
+              <ListItem>
+                <Link href="#">Community</Link>
+              </ListItem>
             </UnorderedList>
           </Box>
         </Flex>
@@ -53,10 +94,15 @@ function FooterTop() {
           Contatti
         </Heading>
         <UnorderedList styleType="none" spacing={2}>
-          <ListItem>Email: info@travel.com</ListItem>
-          <ListItem>Telefono: +39 123 456 789</ListItem>
-          <ListItem>Supporto: help@travel.com</ListItem>
-          <ListItem>Social: Facebook, Instagram, Twitter</ListItem>
+          <ListItem>
+            <Link href="#">Email: info@travel.com</Link>
+          </ListItem>
+          <ListItem>
+            <Link href="#">Telefono: +39 123 456 789</Link>
+          </ListItem>
+          <ListItem>
+            <Link href="#">Supporto: help@travel.com</Link>
+          </ListItem>
         </UnorderedList>
       </Box>
     </Flex>

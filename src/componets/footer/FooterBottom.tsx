@@ -11,7 +11,7 @@ import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 function FooterBottom() {
   return (
-    <Box bg="gray.800" color="white" py={10}>
+    <Box py={10}>
       <Flex
         maxW="1200px"
         mx="auto"

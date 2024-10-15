@@ -29,7 +29,7 @@ function HeaderComp() {
               colorScheme="gray.100"
               variant="outline"
               borderRadius="30px"
-              _hover={{ bg: "gray.300" }}
+              _hover={{ bg: "gray.300", cursor: "pointer" }}
             >
               <HamburgerIcon />
               <Image
@@ -47,7 +47,10 @@ function HeaderComp() {
               {filterList.map((item, index) => (
                 <Box
                   key={index}
-                  _hover={{ borderBottom: "2px solid black" }}
+                  _hover={{
+                    borderBottom: "2px solid black",
+                    cursor: "pointer",
+                  }}
                   borderBottom="2px solid transparent"
                   display="flex"
                   alignItems="center"

@@ -22,6 +22,11 @@ function TableTravel() {
           position="relative"
           display="flex"
           justifyContent="center"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="https://www.piscinecastiglione.it/wp-content/uploads/2023/08/piscina-cascata-casa-design-400x400.jpg?theia_smart_thumbnails_file_version=2"
@@ -47,6 +52,11 @@ function TableTravel() {
           bg="red"
           borderRadius="10px"
           overflow="hidden"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="img/Ville.png"
@@ -62,6 +72,11 @@ function TableTravel() {
           bg="yellow"
           borderRadius="10px"
           overflow="hidden"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="img/Campeggi.png"
@@ -78,6 +93,11 @@ function TableTravel() {
           bg="blue"
           borderRadius="10px"
           overflow="hidden"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="img/Appartamenti.png"
@@ -92,6 +112,11 @@ function TableTravel() {
           bg="blue"
           borderRadius="10px"
           overflow="hidden"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="img/Chalet.png"
@@ -106,6 +131,11 @@ function TableTravel() {
           bg="orange"
           borderRadius="10px"
           overflow="hidden"
+          _hover={{
+            transform: "scale(1.1)",
+            boxShadow: "0 10px 20px rgba(0, 0, 0, 0.3)",
+            transition: "all 0.5s ease",
+          }}
         >
           <Image
             src="img/Case.png"
