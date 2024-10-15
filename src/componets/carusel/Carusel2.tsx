@@ -57,7 +57,7 @@ function Carusel2() {
           infinite={true}
           autoPlaySpeed={1000}
           keyBoardControl={true}
-          customTransition="all .5"
+          // customTransition="all .5"
           transitionDuration={500}
           containerClass="carousel-container"
           // removeArrowOnDeviceType={["tablet", "mobile"]}
