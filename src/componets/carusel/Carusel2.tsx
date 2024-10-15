@@ -9,8 +9,8 @@ function Carusel2() {
   const responsive = {
     desktop: {
       breakpoint: { max: 3000, min: 1500 },
-      items: 6,
-      slidesToSlide: 6,
+      items: 5,
+      slidesToSlide: 5,
     },
     desktopSm: {
       breakpoint: { max: 1500, min: 1024 },

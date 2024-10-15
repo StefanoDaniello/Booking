@@ -12,6 +12,11 @@ function Carusel1() {
       items: 6,
       slidesToSlide: 6,
     },
+    desktopSm: {
+      breakpoint: { max: 1500, min: 1024 },
+      items: 5,
+      slidesToSlide: 5,
+    },
     tablet: {
       breakpoint: { max: 1024, min: 800 },
       items: 4,
