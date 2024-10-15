@@ -1,6 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
-import { useContextApp } from "../store/context";
-import CardComp2 from "./CardComp2";
+import { useContextApp } from "../../store/context";
+import CardComp2 from "../card/CardComp2";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 

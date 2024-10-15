@@ -1,4 +1,4 @@
-import { Box, Text, Container, Grid, GridItem, Image } from "@chakra-ui/react";
+import { Text, Grid, GridItem, Image } from "@chakra-ui/react";
 
 function TableTravel() {
   return (

@@ -1,5 +1,5 @@
 body {
-  background-color: #edf2f6 !important;
+  background-color: #e2e8f0 !important;
 }
 .carousel-container {
   position: relative;
@@ -26,4 +26,8 @@ body {
   justify-content: center;
   align-items: center;
   margin-bottom: 40px;
+}
+
+.bg-gray {
+  background-color: #e0e0e0;
 }

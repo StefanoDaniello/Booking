@@ -1,5 +1,6 @@
 import HeaderComp from "./componets/HeaderComp";
-import MainComp from "./componets/MainComp";
+import MainComp from "./componets/main/MainComp";
+import FooterComp from "./componets/footer/FooterComp";
 import { ContextProvider } from "./store/context";
 import "./App.css";
 
@@ -8,6 +9,7 @@ function App() {
     <ContextProvider>
       <HeaderComp></HeaderComp>
       <MainComp></MainComp>
+      <FooterComp></FooterComp>
     </ContextProvider>
   );
 }

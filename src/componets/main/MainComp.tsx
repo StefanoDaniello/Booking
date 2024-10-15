@@ -1,7 +1,7 @@
 import { Container, Box } from "@chakra-ui/react";
 import JumboComp from "./JumboComp";
-import Carusel1 from "./Carusel1";
-import Carusel2 from "./Carusel2";
+import Carusel1 from "../carusel/Carusel1";
+import Carusel2 from "../carusel/Carusel2";
 import TableTravel from "./TableTravel";
 import CodeApp from "./CodeApp";
 function MainComp() {
