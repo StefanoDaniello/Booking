@@ -42,7 +42,9 @@ function HeaderComp() {
             </Button>
           </Flex>
           <Box textAlign="center">
-            <Text fontSize="5xl">Dove Vuoi Andare?</Text>
+            <Text fontSize="5xl" className="titolo">
+              Dove Vuoi Andare?
+            </Text>
             <Box display="flex" justifyContent="center" alignItems="center">
               {filterList.map((item: any, index: number) => (
                 <Box

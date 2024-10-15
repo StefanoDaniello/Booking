@@ -13,7 +13,7 @@ function JumboComp() {
           objectFit="cover"
         />
         <Box position="absolute" bottom={5} left={5}>
-          <Text fontSize="5xl" color="white">
+          <Text fontSize="5xl" color="white" className="titolo">
             I Migliori Ristoranti 2024
           </Text>
           <Text color="white">
