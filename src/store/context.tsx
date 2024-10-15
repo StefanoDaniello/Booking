@@ -2,7 +2,10 @@ import React, { createContext, useContext, useState, ReactNode } from "react";
 import List from "./Array/FilterList";
 import CardList from "./Array/CardList";
 
-interface ContextType {}
+interface ContextType {
+  filterList: any;
+  cardList: any;
+}
 
 const Context = createContext<ContextType | undefined>(undefined);
 

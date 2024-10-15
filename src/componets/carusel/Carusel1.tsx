@@ -24,13 +24,13 @@ function Carusel1() {
     },
   };
 
-  const CustomLeftArrow = ({ onClick }) => (
+  const CustomLeftArrow = ({ onClick }: any) => (
     <button className="custom-arrow left" onClick={onClick}>
       &lt;
     </button>
   );
 
-  const CustomRightArrow = ({ onClick }) => (
+  const CustomRightArrow = ({ onClick }: any) => (
     <button className="custom-arrow right" onClick={onClick}>
       &gt;
     </button>
@@ -61,7 +61,7 @@ function Carusel1() {
           customLeftArrow={<CustomLeftArrow />}
           customRightArrow={<CustomRightArrow />}
         >
-          {cardList.map((item) => (
+          {cardList.map((item: any) => (
             <Box
               key={item.id}
               display="flex"
